@@ -1,1 +1,16 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Epic Access Token:</h1>
+
+<script>
+    var thisURL = document.URL;
+    var codeArray = thisURL.split("?code=");
+    var code = codeArray[codeArray.length - 1];
+    document.write(code)
+</script>
+
+</body>
+</html>
+
